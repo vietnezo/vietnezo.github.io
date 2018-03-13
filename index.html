@@ -1,26 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" type="text/javascript"></script>
-<script type="text/javascript">
-    $(document).ready(function () {
-        event.preventDefault();
-
-        function json1(id,name){
-            this.id = id;
-            this.name = name;
-        }
-
-        id_list = Array();
-        id_list.push(new json1("1","TEST_1"));
-        id_list.push(new json1("2","TEST_2"));
-        id_list.push(new json1("3","TEST_3"));
-        id_list.push(new json1("4","TEST_4"));
-        id_list.push(new json1("5","TEST_5"));
-
-        id_list = JSON.stringify(id_list);
-        document.write(id_list);
-    });
-</script>
-</head>
-</html>
+<!doctype html><html><head><meta charset="utf-8"><title>Storybook</title><meta name="viewport" content="width=device-width,initial-scale=1"><style>html, body {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }</style><script>/* globals window */
+  /* eslint-disable no-underscore-dangle */
+  try {
+    if (window.parent !== window) {
+      window.__REACT_DEVTOOLS_GLOBAL_HOOK__ = window.parent.__REACT_DEVTOOLS_GLOBAL_HOOK__;
+      window.__VUE_DEVTOOLS_GLOBAL_HOOK__ = window.parent.__VUE_DEVTOOLS_GLOBAL_HOOK__;
+    }
+  } catch (e) {
+    // eslint-disable-next-line no-console
+    console.warn('unable to connect to parent frame for connecting dev tools');
+  }</script></head><body><div id="root"></div><script src="runtime~main.17da544d0ef88cbabfaf.bundle.js"></script><script src="vendors~main.6272ab03ab4e6ab5f66a.bundle.js"></script><script src="main.b97941d99324a79b7273.bundle.js"></script></body></html>
