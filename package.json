@@ -4,7 +4,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "build": "cd rsmdc-storybook && git pull origin master && yarn && yarn build-storybook && cd .. && rm *.map && cp -r rsmdc-storybook/storybook-static/* . && git add . && git commit -m 'release' && git push origin master"
+    "build": "cd rsmdc-storybook && git pull origin master && yarn && yarn build-storybook && cd .. && rm *.bundle.* && cp -r rsmdc-storybook/storybook-static/* . && git add . && git commit -m 'release' && git push origin master"
   },
   "repository": {
     "type": "git",
