@@ -5,7 +5,7 @@
   "main": "main.js",
   "scripts": {
     "build": "cd rsmdc-storybook && git pull origin master && yarn && yarn build-storybook && cd .. && rm *.bundle.* && cp -r rsmdc-storybook/storybook-static/* .",
-    "deploy": "git add . && git commit -m 'release $(date+%F)' && git push origin master"
+    "deploy": "git add . && git commit -m \"release \"$(date +%F) && git push origin master"
   },
   "repository": {
     "type": "git",
