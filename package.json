@@ -1,0 +1,19 @@
+{
+  "name": "vietnezo.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "build": "cd rsmdc-storybook && git pull origin master && yarn && yarn build-storybook && cd .. && rm *.map && cp -r rsmdc-storybook/storybook-static/* . && git add . && git commit -m 'release' && git push origin master"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vietnezo/vietnezo.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vietnezo/vietnezo.github.io/issues"
+  },
+  "homepage": "https://github.com/vietnezo/vietnezo.github.io#readme"
+}
