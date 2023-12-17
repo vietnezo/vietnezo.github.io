@@ -572,10 +572,11 @@ header nav.navbar.navbar.fixed-top {
 .getting_married_text h4 {
     margin-top: 320px;
     font-family: 'Cinzel Decorative', cursive;
-    color: #7c6c26;
+    color: #bf9c00;
     display: inline-flex;
     position: relative;
     align-items: center;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 }
 
 .getting_married_text h4:before {
