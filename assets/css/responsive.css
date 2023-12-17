@@ -2934,9 +2934,6 @@
         width: 50px;
         height: 25px;
     }
-    .getting_married_text h4 {
-        font-size: 25px;
-    }
     .save_date_section h3 {
         font-size: 30px;
         line-height: 50px;
@@ -3067,9 +3064,6 @@
     .rsvp_sec:after {
         top: calc(100% - 100px);
         transform: scale(1.5) rotate(89deg);
-    }
-    .getting_married_text h4 {
-        font-size: 20px;
     }
     .address_content {
         font-size: 15px;
